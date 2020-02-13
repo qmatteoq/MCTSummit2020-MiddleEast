@@ -4,8 +4,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
-    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
-    <Platforms>AnyCPU;x86</Platforms>
+    <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
+    <Platforms>AnyCPU;x86;x64</Platforms>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
